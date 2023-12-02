@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Inter+Tight:wght@500&display=swap');
+*{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Inter Tight', sans-serif;
+} 
+*{
+    margin: 0%;
+    background-color: bisque;
+}
+
+.main{
+    width: 95vw;
+    height: 105vh;
+    border: 5px solid black;
+border-radius: 20px;
+}
+.head {
+    text-align: center;
+    margin: 30px;
+}
+ul {
+    border-top: 5px solid black;
+    border-bottom:5px solid black ; 
+    padding: 25px;
+    margin: 30px;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}  
+ul li{
+    display: flex;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+    color: rgba(5, 4, 4, 0.76);
+    font-size: large;
+transition: transform 200ms;
+}
+ul li a:focus{
+color: rgba(161, 19, 0, 0.863);
+
+}
+a:hover{
+transform: scale3d(1);
+border-bottom: 2px solid rgb(116, 26, 26);
+}
+#piano1{
+    width: 25%;
+    height: 5%;
+}
+#piano2{
+    width: 25%;
+}
+#piano3{
+    width: 25%;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+p{
+    max-height: 180px;
+    margin: 15px;
+    overflow: scroll;
+overflow-x:hidden ;  
+text-align: left;  
+}
